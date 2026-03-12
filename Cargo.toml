@@ -1,5 +1,5 @@
 [package]
-name = "mock-zaino-grpc"
+name = "grpc_proxy"
 version = "0.1.0"
 edition = "2024"
 

@@ -1,4 +1,4 @@
-//! A mock gRPC server implementing the `CompactTxStreamer` service.
+//! A gRPC proxy implementing the `CompactTxStreamer` service.
 //!
 //! All endpoints return `unimplemented!()`. Used to verify that offline
 //! wallet operations do not contact the indexer.

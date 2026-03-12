@@ -243,6 +243,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "grpc_proxy"
+version = "0.1.0"
+dependencies = [
+ "zaino-proto",
+]
+
+[[package]]
 name = "h2"
 version = "0.4.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -483,13 +490,6 @@ dependencies = [
  "libc",
  "wasi",
  "windows-sys 0.61.2",
-]
-
-[[package]]
-name = "mock-zaino-grpc"
-version = "0.1.0"
-dependencies = [
- "zaino-proto",
 ]
 
 [[package]]
