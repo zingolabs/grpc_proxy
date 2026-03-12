@@ -1,0 +1,7 @@
+[package]
+name = "mock-zaino-grpc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+zaino-proto = { git = "https://github.com/zingolabs/zaino.git", rev = "7c61227edb447f278238cf21ff1331a8a644d246", default-features = false, features = ["grpc_proxy_server"] }
