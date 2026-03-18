@@ -1,7 +1,7 @@
 [package]
-name = "grpc_proxy"
+name = "zingo_grpc_proxy"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-zaino-proto = { git = "https://github.com/zingolabs/zaino.git", rev = "7c61227edb447f278238cf21ff1331a8a644d246", default-features = false, features = ["grpc_proxy_server"] }
+zaino-proto = { git = "https://github.com/zingolabs/zaino.git", rev = "2e2816cb3755e7ff4d18bed1a96b95dc07c1549c", default-features = false, features = ["grpc_proxy_server"] }
