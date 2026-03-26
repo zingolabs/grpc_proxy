@@ -5,3 +5,6 @@ edition = "2024"
 
 [dependencies]
 zaino-proto = { git = "https://github.com/zingolabs/zaino.git", rev = "2e2816cb3755e7ff4d18bed1a96b95dc07c1549c", default-features = false, features = ["grpc_proxy_server"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt"] }
