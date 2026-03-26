@@ -31,6 +31,10 @@ pub use zaino_proto::proto::service::compact_tx_streamer_server::CompactTxStream
 /// without adding tonic as a direct dependency.
 pub use zaino_proto::tonic as tonic_reexport;
 
+/// Re-export proto types so consumers can construct responses without
+/// depending on `zaino-proto` directly.
+pub use zaino_proto::proto::{compact_formats, service};
+
 type Stream<T> = std::pin::Pin<
     Box<dyn tonic::codegen::tokio_stream::Stream<Item = Result<T, tonic::Status>> + Send>,
 >;
